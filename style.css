@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading{
+    background-color: blue;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#task, #date, #priority, #button{
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5%;
+    margin-top: 3%;
+    border: 2px solid black;
+    text-align: center;
+}
